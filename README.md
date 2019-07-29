@@ -1,3 +1,7 @@
+# Angular 8 Routing course - working project - Pluralsight course
+
+This is a working project to use with the Angular 8 routing course Pluralsight hosts.
+
 # APM
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
