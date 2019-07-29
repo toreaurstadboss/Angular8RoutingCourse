@@ -22,11 +22,11 @@ export class AppComponent {
     return '';
   }
 
-  constructor(private authService: AuthService, private router:  Router,) { }
+  constructor(private authService: AuthService, private router:  Router, ) { }
 
   logOut(): void {
     this.authService.logout();
-    this.router.navigate(['/welcome']);
+    this.router.navigateByUrl('/welcome');
     console.log('Log out');
 
   }
