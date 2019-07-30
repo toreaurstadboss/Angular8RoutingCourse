@@ -4,6 +4,7 @@ import { HttpClientModule } from "@angular/common/http";
 // Imports for loading & configuring the in-memory web api
 import { InMemoryWebApiModule } from "angular-in-memory-web-api";
 import { ProductData } from "./products/product-data";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from "./app.component";
 import { WelcomeComponent } from "./home/welcome.component";
@@ -25,6 +26,7 @@ import { AppRoutingModule } from "./app-routing.module";
     ProductModule,
     UserModule,
     MessageModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
   ],
   declarations: [AppComponent, WelcomeComponent, PageNotFoundComponent],
