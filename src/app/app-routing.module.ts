@@ -8,9 +8,9 @@ import { PageNotFoundComponent } from "./page-not-found.component";
     RouterModule.forRoot(
       [
         { path: 'welcome', component: WelcomeComponent },
-        { path: "login", pathMatch: "full", component: LoginComponent },
-        { path: "", redirectTo: "welcome", pathMatch: "full" },
-        { path: "**", component: PageNotFoundComponent }
+        { path: 'login', pathMatch: 'full', component: LoginComponent },
+        { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+        { path: '**', component: PageNotFoundComponent }
       ],
       { useHash: false, enableTracing: false }
     ),
